@@ -1,4 +1,4 @@
-# MintGuard — NFT Authenticity Verification on GenLayer
+# MintGuard NFT Authenticity Verification on GenLayer
 
 MintGuard is a decentralized NFT authenticity verification application built on [GenLayer](https://docs.genlayer.com/). It uses GenLayer's AI consensus mechanism to detect copies, derivatives, AI-generated fakes, and stolen art patterns.
 
@@ -24,8 +24,8 @@ The contract uses a shared `_analyze()` helper function that:
 ### Consensus Failure Handling
 
 The frontend properly handles all transaction states:
-- `TransactionStatus.ACCEPTED` — success, verdict recorded
-- `TransactionStatus.CANCELED` — consensus failure, descriptive message shown
+- `TransactionStatus.ACCEPTED` success, verdict recorded
+- `TransactionStatus.CANCELED` consensus failure, descriptive message shown
 - Error patterns (timeout, abort) — caught and displayed as user-friendly messages
 
 ## Architecture
