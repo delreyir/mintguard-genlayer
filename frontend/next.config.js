@@ -2,6 +2,6 @@
 const nextConfig = {
   output: "export",
   images: { unoptimized: true },
-  env: { NEXT_PUBLIC_CONTRACT_ADDRESS: "0x0c66f72411a3E48E0afA95546D01428303145d84" },
+  env: { NEXT_PUBLIC_CONTRACT_ADDRESS: "0x4fCBCbF376EBD5b56041A827497773817B5ba32d" },
 };
 module.exports = nextConfig;
