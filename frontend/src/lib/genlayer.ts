@@ -3,7 +3,7 @@ import { studionet } from "genlayer-js/chains";
 import type { GenLayerClient } from "genlayer-js/types";
 
 export const CONTRACT_ADDRESS = (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS ||
-  "0x0c66f72411a3E48E0afA95546D01428303145d84") as `0x${string}`;
+  "0x4fCBCbF376EBD5b56041A827497773817B5ba32d") as `0x${string}`;
 
 // Network configuration — uses studionet chain definition from SDK,
 // but connect() switches the wallet to the correct network.
